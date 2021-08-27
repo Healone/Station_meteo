@@ -1,1 +1,22 @@
+                                                                      Première réunion / reprise du projet :
+
+
+1 fonctionnalité de communication GSM, utiliser la communication par LORA sur la réception de donnée venant des capteurs
+Développer un module relais (2 modules LOHRA, un qui récupère les données, un autre qui les transmets avec une portée plus importante)
+LOHRA fonctionne actuellement avec une passerelle (réseau connecté en wifi)
+ESP 32 wifi/Bluetooth
+Faire la même chose avec un réseau GSM
+
+Rajouter une puce GSM sur la carte / ou commander la carte pour faire les premiers tests.
+Commande de carte créé par les ancien étudiant pour effectuer des tests
+Rajouter une puce GSM voir revoir l’étude du PCB.
+
+Ce qu’ils n’ont pas réussis à faire : 
+-	Réveillez l’ESP à partir de la puce LHORA (Fonctionnement tous les 15 mins en journée / 60 mins durant la nuit)
+-	Exploitation de la girouette (pont diviseur de tension à corriger)
+
+Au niveau de la trame imposer :
+
+-1er octet : soit balance, soit météo, soit module interne (Dans notre projet météo la trame commencera tout le temps par « M »)
+-Les 6 octets suivants sont : l’adresse mac
 
