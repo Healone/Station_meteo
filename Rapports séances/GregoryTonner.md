@@ -13,3 +13,8 @@ Découverte du schéma Eagle de la carte électronique.
 Installation du connecteur RJ45 femelle dans le logiciel Eagle (10%).
 Appréhension des besoins du client pour le cahier des charges.
 
+Rapport de projet semaine 3
+
+Etude du PCB sur Eagle
+Modification du PCB et routage.
+
