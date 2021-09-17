@@ -1,12 +1,16 @@
 Tâches projet GAGLIO Thomas
 
 Séance du 27/08/2021 :
+
+
 •    Prise de connaissance du travail effectué les années précédentes.
 •    Prise en main de GitHub et création des différents fichiers et de l'espace de travail.
 •    Réunion d'informations avec Monsieur Peter afin de bien prendre en main le sujet / Rédaction d'un document synthèse.
 
 
 Séance du 09/09/2021 :
+
+
 •Etude de la documentation technique. Récupération du matèriel.
 •Découverte du schéma Eagle de la carte électronique
 •Début de l'installation du connecteur RJ454 femelle dans le logiciel Eagle (10%)
