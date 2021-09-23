@@ -11,11 +11,20 @@ Séance du 09/09/2021 :
 •Découverte du schéma Eagle de la carte électronique.
 •Début de l'instalation du connecteur RJ45 femelle dans le logiciel Eagle à la place des connecteurs JP4, JP7, JP11 (10%).
 
+
 Séance du 17/09/2021 :
 •Finalisation de l'instalation du connecteur RJ45 femelle sous Eagle (ajout de l'empreinte et des connexions associées sur le schéma du pcb).
         - 1 connecteur pour l'anémomètre et la girouette
-         -1 connecteur pour le pluviomètre
+        - 1 connecteur pour le pluviomètre
 •Modification du schéma de routage en ajoutant les connexions associées aux nouveaux connecteurs RJ45 (découverte du routage pcb pour ma part donc il a fallu passer un peu de temps sur cette étape).
+
+
+Séance du 23/09/2021 :
+•Attente de l'arrivée de la carte pour commencer a effectuer le côté sofware et les tests.
+•Attente d'une carte PCB contenant le module ESP-32 et SIM800.
+        - Recherche de méthodes pour configurer internet avec l'ESP-32 car actuellement on ne peut qu'nevoyer des messages. (-->Requêtes sur un serveur PHP).
+        - Recher de modèle GSM outre l'ESP-32.
+
 
 
 
