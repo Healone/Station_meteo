@@ -8,7 +8,17 @@ Séance du 27/08/2021 :
 
 Séance du 09/09/2021 :
 •Etude de la documentation technique. Récupération du matèriel.
-•Découverte du schéma Eagle de la carte électronique
-•Début de l'instalation du connecteur RJ45 femelle dans le logiciel Eagle à la place des connecteurs JP4, JP7, JP11 (10%)
+•Découverte du schéma Eagle de la carte électronique.
+•Début de l'instalation du connecteur RJ45 femelle dans le logiciel Eagle à la place des connecteurs JP4, JP7, JP11 (10%).
+
+Séance du 17/09/2021 :
+•Finalisation de l'instalation du connecteur RJ45 femelle sous Eagle (ajout de l'empreinte et des connexions associées sur le schéma du pcb).
+        - 1 connecteur pour l'anémomètre et la girouette
+         -1 connecteur pour le pluviomètre
+•Modification du schéma de routage en ajoutant les connexions associées aux nouveaux connecteurs RJ45 (découverte du routage pcb pour ma part donc il a fallu passer un peu de temps sur cette étape).
+
+
+
+
 
 
