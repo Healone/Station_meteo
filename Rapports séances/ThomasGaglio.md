@@ -22,3 +22,7 @@ Séance du 17/09/2021 :
 • Etude de la documentation de l'anémomètre, girouette et pluviomètre
 • Remplacement sur le schéma électrique (sous Eagle) des connecteurs RJ11 par des connecteur RJ45
 • Prise de connaissance du PCB de l'ancien groupe et finition du routage de celui-ci.  
+
+Séance du 23/09/2021 :
+
+• Absent
