@@ -26,3 +26,9 @@ Séance du 17/09/2021 :
 Séance du 23/09/2021 :
 
 • Absent
+
+
+Séance du 01/10/2021 :
+  • Récupération du PCB de notre carte électronique
+  • Brasage des composants sur le PCB avec moule + four pour l'avant de la carte, brasage au fer a souder des composants restant au verso de la carte. 
+
