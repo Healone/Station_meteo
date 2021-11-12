@@ -31,4 +31,12 @@ Séance du 23/09/2021 :
 Séance du 01/10/2021 :
   • Récupération du PCB de notre carte électronique
   • Brasage des composants sur le PCB avec moule + four pour l'avant de la carte, brasage au fer a souder des composants restant au verso de la carte. 
+  
+  Séance du 22/11/2021 :
+  • Nous avons terminé le brassage de la carte, tous les composants on étés soudés.
+  • Début des test sur les differents composants de la carte.
+  • A la fin de la séance il semble qu'une LED est déffectueuse. Nous prévoyons de tester la contniuité et de la mettre en tension pour vérifier sa fonctionalité à la prochaine séance.
+  
+  
+  
 
