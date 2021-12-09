@@ -29,15 +29,19 @@ Séance du 23/09/2021 :
 
 
 Séance du 01/10/2021 :
+
   • Récupération du PCB de notre carte électronique
   • Brasage des composants sur le PCB avec moule + four pour l'avant de la carte, brasage au fer a souder des composants restant au verso de la carte. 
   
   Séance du 22/11/2021 :
+  
   • Nous avons terminé le brassage de la carte, tous les composants on étés soudés.
   • Début des test sur les differents composants de la carte.
   • A la fin de la séance il semble qu'une LED est déffectueuse. Nous prévoyons de tester la contniuité et de la mettre en tension pour vérifier sa fonctionalité à la prochaine séance.
   
-  Séance du 12/12/2021
+ 
+  Séance du 12/12/2021 :
+  
 • La LED présumée defectueuse est confirmée KO après les tets effectués avec un multimètre. Mr Peter prévoit de nous en ramaner une la séance prochaine.
 • Essai des codes du groupe de l'année dernière sur l'ESP32 pour récupérer des infos avec l'anémomètre sans succès. Tests avec un oscillateur pour vérifier le fonctionnement du l'anémomètre. Résultat OK --> On voit une impulsion à chaque fois que l'énmomètre effectue un tour. Plus l'anémomètre va touner vite, plus l'impulsion sera rapide et la fréquence entre les impulsions sera petite.
         
