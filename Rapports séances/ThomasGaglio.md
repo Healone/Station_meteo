@@ -42,7 +42,7 @@ Séance du 01/10/2021 :
  
   Séance du 12/12/2021 :
   
-• La LED présumée defectueuse est confirmée KO après les tets effectués avec un multimètre. Mr Peter prévoit de nous en ramaner une la séance prochaine.
+• La LED présumée defectueuse est confirmée KO après les tets effectués avec un multimètre. Mr Peter prévoit de nous en ramener une la séance prochaine.
 • Essai des codes du groupe de l'année dernière sur l'ESP32 pour récupérer des infos avec l'anémomètre sans succès. Tests avec un oscillateur pour vérifier le fonctionnement du l'anémomètre. Résultat OK --> On voit une impulsion à chaque fois que l'énmomètre effectue un tour. Plus l'anémomètre va touner vite, plus l'impulsion sera rapide et la fréquence entre les impulsions sera petite.
         
   
