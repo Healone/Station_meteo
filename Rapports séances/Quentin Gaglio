@@ -35,13 +35,32 @@ Séance du 22/10/2021
 •Début des tests sur les differents composants de la carte. 
 •A la fin de la séance il semble qu'une LED est déffectueuse. Nous prévoyons de tester la contniuité et de la mettre en tension pour vérifier sa fonctionalité à la prochaine séance.
 
+
+Semestre 8 : 
+
 Séance du 12/12/2021
 •La LED présumée defectueuse est confirmée KO après les tets effectués avec un multimètre. Mr Peter prévoit de nous en ramener une la séance prochaine. 
 •Essai des codes du groupe de l'année dernière sur l'ESP32 pour récupérer des infos avec l'anémomètre sans succès (code incorrect ?). 
 •Tests avec un oscilateur pour vérifier le fonctionnement du l'anémomètre. Résultat positif --> On voit une impulsion à chaque fois que l'énmomètre effectue un mouvement. Plus l'anémomètre va touner vite, plus l'impulsion sera rapide et la fréquence entre les impulsions sera petite.
         
         
-   
+Séance du 07/01/2022
+•La led supposée déffectueuse était finalement mal positionée. Ainsi après un débrasage et un rebrasage dans le bon sens, la Led fonctionne.
+•Création d'une configuration sur la breadbord permettant de tester le fonctionnement des capteurs BME et TSL. Les tests on étaient réalisés avec succés.
+•Ajout des capteurs sur la carte PCB (collage avec du scotch car il n'y avait pas la place pour les souder). Pour le moment on effectue les tests de cette manière sur la carte PCB. Si à la fin du projet il nous restera du temps on réalisera une nouvelle carte PCB en rajoutant de la place pour les deux capteurs.
+
+Séance du 03/01/2022
+
+•Etude sur le branchement des capteurs TSL et BME sur la carte PCB et récupération de la documentation des brochures des capteurs. (durée 1h45)
+•Brasage des deux capteurs sur la carte avec des fils. (durée 1h45)
+
+Séance du 04/01/2022
+
+•Vérification du brasage des capteurs TSL et BME éffectué le 03/01/2022 : Les 2 capteurs ne fonctionnement pas on pense que le problème vient de la carte. A la suite de se souci et pour un gain de temps nous allons effectuer tous les test jusqu'à la finalisation sur la breadbord. Ensuite à la fin nous reréaliserons un schéma eagle pour créer une nouvelle carte qui fonctionne et qui répond à nos besoins.
+•Début de la tâche concernant la communication entre la station météo et la passerelle grâce au Lora:
+        - Récupération du code réalisé par un groupe de camarade qui ont le même besoin.
+        - Assimilitation des codes.
+
 
 
 
