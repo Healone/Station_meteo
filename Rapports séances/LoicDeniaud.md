@@ -12,4 +12,10 @@ Rapport de projet semaine 3
 
 Rapport de projet semaine 4
 
+séance du 3/1/22
+- Récupération des quantités de pluie sur ESP + modif du layout EAGLE.
+- Amélioration du code en général et rapatriement de petit bout de code 
 
+Séance du 4/1/22
+- Récupération de la vitesse du vent sur ESP.
+- Début d'intégration de la girouette, avec prise en compte de la plage d'acq analogique de l'ESP.
