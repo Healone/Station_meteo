@@ -56,10 +56,14 @@ Séance du 03/01/2022
 
 Séance du 04/01/2022
 
-•Vérification du brasage des capteurs TSL et BME éffectué le 03/01/2022 : Les 2 capteurs ne fonctionnement pas on pense que le problème vient de la carte. A la suite de se souci et pour un gain de temps nous allons effectuer tous les test jusqu'à la finalisation sur la breadbord. Ensuite à la fin nous reréaliserons un schéma eagle pour créer une nouvelle carte qui fonctionne et qui répond à nos besoins.
+•Vérification du brasage des capteurs TSL et BME éffectué le 03/01/2022 : Les 2 capteurs ne fonctionnement pas on pense que le problème vient de la carte. A la suite de se souci et pour un gain de temps nous allons effectuer tous les tests jusqu'à la finalisation sur la breadbord. Ensuite à la fin nous reréaliserons un schéma eagle pour créer une nouvelle carte qui fonctionne et qui répond à nos besoins.
 •Début de la tâche concernant la communication entre la station météo et la passerelle grâce au Lora:
         - Récupération du code réalisé par un groupe de camarade qui ont le même besoin.
         - Assimilitation des codes.
+•Brasage entre 2 connecteurs RJ45 et des fils afin de simplifier la connexion sur la breadbord pour effectuer les tests.
+
+Séance Suivante : - Nous continuerons de tester le dernier élement de mesure sur notre breadbord (direction du vent). 
+                  - Nous effectuerons un point à 3 afin de définir les tâches à effectuer pour la partie communication entre la station météo et la passerelle. Cela nous permettra de nous oragniser et de nous partager les tâches 
 
 
 
