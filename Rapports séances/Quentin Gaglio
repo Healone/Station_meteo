@@ -88,7 +88,7 @@ Durant cette séance j'ai uniquement travaillé sur le sujet suivant :
 Objectif semaine suivante : 
         - J'ai pour objectif de finir le codage afin de tester l'envoi d'une trame via le lora et réceptionner cette trame sur la gateway.
                         .Si il n'y a pas dérreurs durant le test d'envoi de trame -->  je prévois d'effectuer des tests avec les valeurs réelles de nos équipements. 
-                        .Si il n'y a des dérreurs durant le test d'envoi de trame -->  je prévois de regarder à quel endroit peut provenir les erreurs afin de réussir à les corriger.
+                        .Si il y a des dérreurs durant le test d'envoi de trame -->  je prévois de regarder à quel endroit peut provenir les erreurs afin de réussir à les corriger.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
