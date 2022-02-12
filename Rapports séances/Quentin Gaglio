@@ -34,7 +34,7 @@ Séance du 22/10/2021
 •Nous avons terminé le brassage de la carte, tous les composants on étés soudés. 
 •Début des tests sur les differents composants de la carte. 
 •A la fin de la séance il semble qu'une LED est déffectueuse. Nous prévoyons de tester la contniuité et de la mettre en tension pour vérifier sa fonctionalité à la prochaine séance.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Semestre 8 : 
 
@@ -43,11 +43,12 @@ Séance du 12/12/2021
 •Essai des codes du groupe de l'année dernière sur l'ESP32 pour récupérer des infos avec l'anémomètre sans succès (code incorrect ?). 
 •Tests avec un oscilateur pour vérifier le fonctionnement du l'anémomètre. Résultat positif --> On voit une impulsion à chaque fois que l'énmomètre effectue un mouvement. Plus l'anémomètre va touner vite, plus l'impulsion sera rapide et la fréquence entre les impulsions sera petite.
         
-        
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
 Séance du 07/01/2022
 •La led supposée déffectueuse était finalement mal positionée. Ainsi après un débrasage et un rebrasage dans le bon sens, la Led fonctionne.
 •Création d'une configuration sur la breadbord permettant de tester le fonctionnement des capteurs BME et TSL. Les tests on étaient réalisés avec succés.
 •Ajout des capteurs sur la carte PCB (collage avec du scotch car il n'y avait pas la place pour les souder). Pour le moment on effectue les tests de cette manière sur la carte PCB. Si à la fin du projet il nous restera du temps on réalisera une nouvelle carte PCB en rajoutant de la place pour les deux capteurs.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Séance du 03/01/2022
 
@@ -64,9 +65,32 @@ Séance du 04/01/2022
 
 Séance Suivante : - Nous continuerons de tester le dernier élement de mesure sur notre breadbord (direction du vent). 
                   - Nous effectuerons un point à 3 afin de définir les tâches à effectuer pour la partie communication entre la station météo et la passerelle. Cela nous permettra de nous oragniser et de nous partager les tâches 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Séance du 10/02/2022
 
+• Gateway (équipement nous permettant de communiquer nos données à la base de données) : 
+        - Récupération de la gateway (passerelle) auprès de Monsieur Peter. La gateway a été programmé afin de nous servir de passerelle pour l'envoi de nos données via le lora présent sur notre carte à la base de données.
+        - Récupération de code concernant cette gateway. Assimilation des codes.
+• Carte électronique :
+        - Discution avec Monsieur Peter. La carte ne fonctionnait pas pour nous. Monsieur Peter à ainsi récupérer la carte pour tester son fonctionnement. Des érreurs étaient présentes.  
+        - Récupération de la carte corrigée par Monsieur Peter. Un de mes camarade à commencer à s4atteler aux tests pour tester de nouveau le fonctionnement de la carte. 
 
+Séance du 11/02/2022
+
+Durant cette séance j'ai uniquement travaillé sur le sujet suivant :
+
+• Gateway (équipement nous permettant de communiquer nos données à la base de données) :
+        - Réflexion sur la composition de notre trame à envoyer à la gateway --> Pour cela notre trame sera composée de la manière suivante : 
+        - Début du codage nous permettant d'envoyer nos trames à la passerelle. Pour le moment j'ai simulé une trame fixe afin de pouvoir tester la réception d'une trame sur la gateway provenant du lora de notre carte car mes camarades travaillent encore sur la récupération des données d'un de nos équipements.
+                .Ecriture de différents fichiers. 3 fichiers.h contenant les différents paramètres de la passerelle, du lora et de la trame. Un fichier .ino contenant un setup et loop permettant d'effectuer l'envoi d'une trame.         
+
+Objectif semaine suivante : 
+        - J'ai pour objectif de finir le codage afin de tester l'envoi d'une trame via le lora et réceptionner cette trame sur la gateway.
+                        .Si il n'y a pas dérreurs durant le test d'envoi de trame -->  je prévois d'effectuer des tests avec les valeurs réelles de nos équipements. 
+                        .Si il n'y a des dérreurs durant le test d'envoi de trame -->  je prévois de regarder à quel endroit peut provenir les erreurs afin de réussir à les corriger.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
