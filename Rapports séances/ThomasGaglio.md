@@ -61,7 +61,10 @@ Séance du 04/01/2022
 •Brasage de fils sur des RJ11 pour test sur breadbord de nos codes d'anémomètre et pluviometre.
 •Test fonctionnels. 
 
-  
-  
+Semaine du 11/01/2022 : 
+
+• Cablage et code de la girouette sur notre breadboard. Nous avons rencontré un pbroblème car la récupération de tension (Analog read) sur l'es32 n'est pas linéaire. La courbe de tension de celui ci est écrétée en basse tension à 0,1V et en haute tension à 3V. Une des solutions consiste à ne travailler que dans la plage linéaire de la courbe en adaptant les résistances (Rtest et Rgirouette) de notre pont diviseur ou bien en rajoutant des résistances talon si la première option n'est pas possible. Nous avons effecuté des test et des mesures de tensions et il semble que l'ajout de resistances talon ne soient pas nécessaires. Nous prévoyons de terminer le code la semaine suivante pour avoir une girouette opérationnelle. 
+
+•Test de la carte récitifiée de M. PETER. N'est pas fonctionelle avec le code que nous avons écrit pour la breadboard. Nous devons nous renseigner auprès de M. PETER la semaine suivante pour éclaircir ce point. 
   
 
