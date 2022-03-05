@@ -92,4 +92,26 @@ Objectif semaine suivante :
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-S
+Séance du 03-04/2022
+
+Problématique : Comment envoyer une trame des données de nos équipements de mesure grâce à notre Lora sur une gateway. 
+
+
+Tâches effectuées : Durant cette séance je me suis attelé à la partie "envoi d'une trame par le Lora à une gateway". Pour cela voici les tâches qui ont été effectuées :
+	- Reprise de l'écriture du code permettant d'envoyer une trame à la gateway :
+		 --> Nos camarades du groupe Laser on du effectuer la même mission que nous (envoyer une trame par le lora à une gateway). Pour cela j'ai communiqué avec eux afin qu'ils me donnent accées à leur code me permettant de gagner du temps dans l'écriture du miens.
+		 --> Ainsi, j'ai réussi à finaliser l'écriture d'un premier code qui nous permet d'envoyer une trame par notre Lora à notre gateway. Comme expliqué dans le compte rendu de la séance du 11/02/2022, voici l'architecture du code :
+				- 4 fichiers : 
+					--> ESP_Lora_Internal : code contenant le setup, une fonction de debug de la trame et le loop pour envoyer la trame.
+					--> definition.h : code contenant principalement la définition des pins utilisées par le Lora.
+					--> donnees.h : code contenant les données de nos mesures (pour l'instant valeurs fixes pour les 1ers tests). De plus, la création de la trame à envoyer est créée dans ce fichier.
+					--> esp_lora.h : code contenant les paramètres du Lora, l'initialiser de celui-ci, et la fonction permettant l'envoi de notre trame.
+	- Une fois l'écriture du code terminée sans erreur, réalisation des étapes suivantes pour le tester :
+		--> envoi d'une trame à la gateway par le Lora :
+			- pour cela, j'ai crée une procédure afin d'effectuer toutes les connexions nécaissaire afin de pouvoir envoyer une trame. Cette procédure, appelée "procedure_connexions_equipements_envoi_trame" est disponible dans le répertoire "Doc".
+		--> Suite à cela on peut vérifier que la trame est bien envoyé sur la gateway ! Cependant la trame n'apparait pas comme elle devrait sur la gateway. Ainsi, voici les objectifs du travail à réaliser pour la semaine suivante :
+
+Objectif semaine suivante :
+	- J'ai pour objectif de mofidier le code donness.h afin de modifier les valeurs de notre trame avec les vrais valeurs de nos équipements de mesure :
+		--> Pour cela : Il faudra effectuer un point avec mes camarades afin de pouvoir récupérer le code permettant de récupérer les données de nos équipements pour pouvoir l'implémenter dans mon code.
+	- J'ai pour objectif de me pencher sur la partie réception de la trame afin de comprendre comment elle receptionne notre trame.
