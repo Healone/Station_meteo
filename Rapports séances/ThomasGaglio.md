@@ -66,5 +66,17 @@ Semaine du 11/01/2022 :
 • Cablage et code de la girouette sur notre breadboard. Nous avons rencontré un pbroblème car la récupération de tension (Analog read) sur l'es32 n'est pas linéaire. La courbe de tension de celui ci est écrétée en basse tension à 0,1V et en haute tension à 3V. Une des solutions consiste à ne travailler que dans la plage linéaire de la courbe en adaptant les résistances (Rtest et Rgirouette) de notre pont diviseur ou bien en rajoutant des résistances talon si la première option n'est pas possible. Nous avons effecuté des test et des mesures de tensions et il semble que l'ajout de resistances talon ne soient pas nécessaires. Nous prévoyons de terminer le code la semaine suivante pour avoir une girouette opérationnelle. 
 
 •Test de la carte récitifiée de M. PETER. N'est pas fonctionelle avec le code que nous avons écrit pour la breadboard. Nous devons nous renseigner auprès de M. PETER la semaine suivante pour éclaircir ce point. 
-  
+
+
+
+Séance du 03-04/2022 : 
+
+Les objectifs de cette séance étaient de finaliser le code/faire fonctionner la girouette et tester le bon fonctionement de notre carte remaniée par Mr Peter. Les codes et bon fonctionnement des autres capteurs et élements de la station météo étant deja réalisés. 
+Le problème étant que la récupération de la tension sur L'esp32 avec la fonction analagoREAD() n'est pas linéaire. Entre 0-0.15V et 3-3.3V l'esp ne peut pas différencier les valeurs. 
+
+Avec Loic Deniaud nous avons procédé à différents test de mesures en changeant la résistance de notre pont diviseur de tension pour la girouette. Cela n'était pas suffisant et nous dépassions toujours les seuil haut et bas de tension. Etant bloqués et en dificulté, nous avons donc sur les conseils de notre enseignant ajouté des résistances "talon" en série avec les 2 résitances du Pont divieur de la girouette et refait nos test en reportant les valeurs sur un tableur excel. Nous avons trouvé des valeurs de résitance acceptables (12K pour la résistance du pont diviseur et 1K pour chaque "talon"). Nous avons ensuite codé et implémenté la partie girouette au reste de notre code de récupération des infos météos.
+
+D'un autre coté j'ai questionné Mr.Peter sur le fonctionnement de notre carte éléctronique. En effet, je l'ai testée en téléversant un simple code de scan d'équipement I2C pour vérifier que l'esp discutait bien avec nos capteurs, sans résultat. Mr.Peter m'a expliqué qu'un transistor connecté a une PIN de l'esp bloquait la tension vers les capteurs. Le but étant de reveiller ceux-ci seulement lors d'une requete d'envoi de données. Pour comuniquer avec nos capteurs nous devions simplement passer la valeur de la PIN à 1 pour débloquer le transistor et donc la tension. Après tets, j'ai bien retrouvé mes capteurs et leur adresses I2C grâce au scan. 
+
+L'objectif de la prochaine séance est de réfléchir et concevoir une nouvelle carte avec les modfifications de resistances et de condensateurs testés sur la breadboard. Nous devons également nous pencher sur l'envoi de nos données avec le LORA. 
 
