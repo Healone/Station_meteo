@@ -101,7 +101,7 @@ Tâches effectuées : Durant cette séance je me suis attelé à la partie "envo
 	- Reprise de l'écriture du code permettant d'envoyer une trame à la gateway :
 		 --> Nos camarades du groupe Laser on du effectuer la même mission que nous (envoyer une trame par le lora à une gateway). Pour cela j'ai communiqué avec eux afin qu'ils me donnent accées à leur code me permettant de gagner du temps dans l'écriture du miens.
 		 --> Ainsi, j'ai réussi à finaliser l'écriture d'un premier code qui nous permet d'envoyer une trame par notre Lora à notre gateway. Comme expliqué dans le compte rendu de la séance du 11/02/2022, voici l'architecture du code :
-				- 4 fichiers : 
+				- 4 fichiers (disponible dans le dossier "ESP_LoRa_Internal" : 
 					--> ESP_Lora_Internal : code contenant le setup, une fonction de debug de la trame et le loop pour envoyer la trame.
 					--> definition.h : code contenant principalement la définition des pins utilisées par le Lora.
 					--> donnees.h : code contenant les données de nos mesures (pour l'instant valeurs fixes pour les 1ers tests). De plus, la création de la trame à envoyer est créée dans ce fichier.
