@@ -39,5 +39,6 @@ Séances du 03/03/22 et 04/03/22
 - Intégration du code girouette dans le code principal, ce qui nous permet maintenant d'avoir toutes les valeurs centralisés.
 - Debut des test concernant la communication LORA avec la gateway, mais nous avons rencontré dans problêmes de cablage sur breadboard avec le module LORA durant la     deuxieme partie du cours du 4/03, ce qui nous a fait prendre du retard, mais sera très propablement réglé lors de la prochaine séance.
 
-
-
+Séance du 11/03/22
+- Modification du code afin de recuperer les interruptions du pluviometre pendant le sleep de l'ESP32.
+- Câblage et test du module LORA sur la breadboard et essayer de transmettre les " vraies " donnés, celles issues des différents capteurs.
