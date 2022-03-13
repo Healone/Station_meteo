@@ -115,3 +115,22 @@ Objectif semaine suivante :
 	- J'ai pour objectif de mofidier le code donness.h afin de modifier les valeurs de notre trame avec les vrais valeurs de nos équipements de mesure :
 		--> Pour cela : Il faudra effectuer un point avec mes camarades afin de pouvoir récupérer le code permettant de récupérer les données de nos équipements pour pouvoir l'implémenter dans mon code.
 	- J'ai pour objectif de me pencher sur la partie réception de la trame afin de comprendre comment elle receptionne notre trame.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Séance du 11/03/2022
+
+Objectif de la séance : Effectuer la présentation individuelles des tâches effectuées durant la première partie du semestre 8. Après les présentations, travailler sur l'envoi des trames via le Lora vers la passerelle pendant l'heure de cours qu'il restait.
+
+Tâches effectuées :
+	- Présentation individuelles (diaporama a commit durant la prochaine séance sur le github).
+	- Prise en compte des commentaires de Monsieur Peter suite à la présentation :
+		- la gateway n'accepte pas la trame de données envoyer par notre Lora. Normal car pour l'instant Monsieur Peter n'a pas défini la taille de notre trame dans la gateway, ainsi la gateway ne peut pas accepter notre trame.
+		- Définir la taille des données qui vont consituer notre trame. Faire attention à définir le nombre de bytes nécéssaire pour chaques données.
+	- Reprise du code d'envoi d'une trame car les valeurs de notre trame (nottament l'adresse mac et le type de notre trame "M") ne s'envoyaient pas en hexadecimal.
+		-Etude du problème, recherche de solutions sur internet et modifications apportées. En conlusion, le problème est résolu.
+
+Objectif semaine suivante :
+	- Travailler avec les camarades de mon groupe afin de réunir nos travaux pour définir justement la trame à envoyer en fonction des données de nos équipements afin d'informer Monsieur Peter pour qu'il effectue les moficiations nécaissaires pour que la gateway puisse récupérer nos trames.
+	
+	
