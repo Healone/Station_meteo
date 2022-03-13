@@ -80,3 +80,10 @@ D'un autre coté j'ai questionné Mr.Peter sur le fonctionnement de notre carte 
 
 L'objectif de la prochaine séance est de réfléchir et concevoir une nouvelle carte avec les modfifications de resistances et de condensateurs testés sur la breadboard. Nous devons également nous pencher sur l'envoi de nos données avec le LORA. 
 
+
+
+Séance du 11-04/2022 : 
+
+Présentation tâches individuellesen 1ère partie de séance.
+
+Approche des concepts du Lora et de la trame avec Quentin lors de la deuxième partie de séance. Nous avons rencontré des difficultés a récupérer des valeurs hexadécimales pour l'adresse MAC dans l'envoi de trame, mais finalement réussi après des recherches sur internet. Nous devons avancer sur la mise en commmun de la trame avec l'envoi de nos données de station météo la séance prochaine et faire un point avec M.Peter sur les éléments à corriger sur notre carte électronique. 
