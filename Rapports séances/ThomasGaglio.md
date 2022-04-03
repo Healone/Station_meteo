@@ -87,3 +87,5 @@ Séance du 11-04/2022 :
 Présentation tâches individuellesen 1ère partie de séance.
 
 Approche des concepts du Lora et de la trame avec Quentin lors de la deuxième partie de séance. Nous avons rencontré des difficultés a récupérer des valeurs hexadécimales pour l'adresse MAC dans l'envoi de trame, mais finalement réussi après des recherches sur internet. Nous devons avancer sur la mise en commmun de la trame avec l'envoi de nos données de station météo la séance prochaine et faire un point avec M.Peter sur les éléments à corriger sur notre carte électronique. 
+
+
