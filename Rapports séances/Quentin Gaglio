@@ -118,19 +118,27 @@ Objectif semaine suivante :
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Séance du 11/03/2022
+Séance du 29/03/2022
 
-Objectif de la séance : Effectuer la présentation individuelles des tâches effectuées durant la première partie du semestre 8. Après les présentations, travailler sur l'envoi des trames via le Lora vers la passerelle pendant l'heure de cours qu'il restait.
+Objectif de la séance : Travailler sur l'envoi des trames via le Lora vers la passerelle.
 
 Tâches effectuées :
-	- Présentation individuelles (diaporama a commit durant la prochaine séance sur le github).
 	- Prise en compte des commentaires de Monsieur Peter suite à la présentation :
 		- la gateway n'accepte pas la trame de données envoyer par notre Lora. Normal car pour l'instant Monsieur Peter n'a pas défini la taille de notre trame dans la gateway, ainsi la gateway ne peut pas accepter notre trame.
-		- Définir la taille des données qui vont consituer notre trame. Faire attention à définir le nombre de bytes nécéssaire pour chaques données.
+		- Définir la taille des données qui vont consituer notre trame. Faire attention à définir le nombre de bytes nécéssaire pour chaques données :
+			Température : 2 chiffres après la virgule -> 2 bytes signed
+			Pression atmosphérique --> 2 bytes unsigned
+			Humidité --> 1 bytes unsigned
+			Luminosité --> 3 bytes unsigned
+			Quantité de pluie --> 2 bytes unsigned
+			Vitesse du vet --> 1 bytes unsigned
+			Orientation du vent --> 1 bytes unsigned
+			Tension de la batterie --> 2 bytes unsigned
+
 	- Reprise du code d'envoi d'une trame car les valeurs de notre trame (nottament l'adresse mac et le type de notre trame "M") ne s'envoyaient pas en hexadecimal.
 		-Etude du problème, recherche de solutions sur internet et modifications apportées. En conlusion, le problème est résolu.
 
-Objectif semaine suivante :
-	- Travailler avec les camarades de mon groupe afin de réunir nos travaux pour définir justement la trame à envoyer en fonction des données de nos équipements afin d'informer Monsieur Peter pour qu'il effectue les moficiations nécaissaires pour que la gateway puisse récupérer nos trames.
-	
+
+Objectif semaine suivante : Implémenter les modifications dans le code pour la définition du nombre de byte de chaque valeur. Effectuer les tests nécéssaires de l'envoi et renseigner monsieur peter de la taille de notre trame et de son format afin que la gateway puisse la lire corectement.
+		
 	
