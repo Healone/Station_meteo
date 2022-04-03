@@ -42,3 +42,7 @@ Séances du 03/03/22 et 04/03/22
 Séance du 11/03/22
 - Modification du code afin de recuperer les interruptions du pluviometre pendant le sleep de l'ESP32.
 - Câblage et test du module LORA sur la breadboard et essayer de transmettre les " vraies " donnés, celles issues des différents capteurs.
+
+Séance du 29/03/22
+- Synchronisation entre notre format d'envoi et le format de réception (multiplier un float par 100 pour une double précision, qui sera ensuite diviser par     100 lors de la réception, et pour les entiers on envoie sur 1 ou 2 octets en fonction de la taille de la donnée).
+  -  
