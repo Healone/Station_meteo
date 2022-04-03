@@ -45,4 +45,11 @@ Séance du 11/03/22
 
 Séance du 29/03/22
 - Synchronisation entre notre format d'envoi et le format de réception (multiplier un float par 100 pour une double précision, qui sera ensuite diviser par     100 lors de la réception, et pour les entiers on envoie sur 1 ou 2 octets en fonction de la taille de la donnée).
-  -  
+  -  Température : 2 octets signed
+  -  Humidité : 2 octets unsigned
+  -  Pression : 2 octets unsigned
+  -  Pluie : 2 octets unsigned
+  -  Vit. vent : 1 octets unsigned
+  -  Orient. vent : 1 octets unsigned
+  -  Tension : 2 octets unsigned
+- Il faut pouvoir recuperer la tension de batterie 12V en plus de la batterie 3.3V (les deux batteries ne seront jamais branchés en même temps mais il         faudrait que le système fonctionne aussi bien avec la premiere batterie que la deuxieme).
